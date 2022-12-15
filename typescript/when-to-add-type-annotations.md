@@ -1,5 +1,9 @@
 ## When to add type annotations
 
+### TL;DR
+
+A good rule of a thumb is to not add types. Unless you have to, because TS didn't infer the type you wanted.
+
 ### Type Inferance
 
 TypeScript is quite smart when it comes to type inference. For example:
