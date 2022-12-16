@@ -1,3 +1,0 @@
-## Derived state
-
-TODO
