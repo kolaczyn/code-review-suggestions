@@ -1,8 +1,8 @@
 ## Reduce object to array
 
-Let's image we're working with this kind of data:
-
 ### Premise
+
+We're working with this data:
 
 ```ts
 const idToProductData = {
