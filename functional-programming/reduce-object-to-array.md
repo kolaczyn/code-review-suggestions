@@ -38,6 +38,16 @@ const allNames = Object.values(idToProductData).map((product) => product.name);
 // ❌
 // Wrong, because we're declaring array as mutable, the code is not imperative and we rely on side-effects
 let allNames = [];
+Object.values(idToProductData).forEach((product) => {
+  allNames.push(product.name);
+});
+```
+
+```ts
+// ❌❌❌
+// Wrong, for the same reasons as the code above.
+// Also, this looks ugly af
+let allNames = [];
 for (const id in idToProductData) {
   allNames.push(idToProductData[id].name);
 }
