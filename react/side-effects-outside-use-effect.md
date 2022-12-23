@@ -33,6 +33,12 @@ const Counter = () => {
 };
 ```
 
+The example above is wrong, because it will cause an infinite loop, because:
+
+1. we're setting state on each rerender
+2. setting state triggers rerender
+3. go to point 1.
+
 ### Correct usage
 
 ```tsx
