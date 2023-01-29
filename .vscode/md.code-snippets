@@ -1,0 +1,26 @@
+{
+	"Bad": {
+		"prefix": "Bad",
+		"body": [
+			"❌",
+		],
+	},
+	"Three bad": {
+		"prefix": "3bad",
+		"body": [
+			"❌❌❌",
+		],
+	},
+	"Ok": {
+		"prefix": "ok",
+		"body": [
+			"✅"
+		],
+	},
+	"Three ok": {
+		"prefix": "3ok",
+		"body": [
+			"✅✅✅"
+		],
+	}
+}
