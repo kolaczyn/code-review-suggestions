@@ -14,4 +14,6 @@
 * TypeScript
   * [Prefer arrow function over function expression](typescript/prefer-arrow-function-expression.md)
   * [When to add type annotations](typescript/when-to-add-type-annotations.md)
+* Clean Code
+  * [When too many args, consider using an object](clean-code/when-too-many-args-use-object.md)
 
